@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PostgreSQL [2]" uuid="ecad3ca5-0b6e-4297-9ddb-dc8f6cd3d0e7">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jbdc:postgresql://neondb_owner:npg_CnVK38XeOumY@ep-withered-unit-a8y4htyk-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&amp;channel_binding=require</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
