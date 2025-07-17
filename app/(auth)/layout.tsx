@@ -1,7 +1,8 @@
 import React from "react";
-import { ArrowLeft, GraduationCap } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
+import { IconInnerShadowTop } from "@tabler/icons-react";
 
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -21,8 +22,8 @@ const AuthLayout = ({ children }: { children: React.ReactNode }) => {
           href="/"
           className="flex items-center gap-2 self-center font-medium"
         >
-          <GraduationCap className="bg-primary size-8 rounded-sm" />
-          TriwanSTUDY.
+          <IconInnerShadowTop className="!size-5" />
+          <span className="font-bold">TriwanSTUDY.</span>
         </Link>
         {children}
 
